@@ -1,0 +1,151 @@
+.mainslider {
+  background-color: #f7f7f7;
+}
+
+.slide-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.subslider {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  height: 100%;
+  width: 40%;
+  background: transparent;
+}
+
+.subslider .carousel-inner {
+  overflow: visible;
+}
+
+.slider-img {
+  max-width: 68%;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+
+.slider-img2 {
+  width: 100%;
+  border-radius: 0px 0px 0px 250px;
+  box-shadow: 1px 1px 25px rgb(255 89 9 / 40%), 1px 1px 100px rgb(255 89 9 / 40%);
+}
+
+.slider-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  transition: 0.5s;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+/* .homebutton {
+  margin-left: 77%;
+  position: relative;
+  z-index: 3;
+  margin-top: -12%;
+} */
+
+.subslider .carousel-control-prev,
+.subslider .carousel-control-next {
+  width: 30px;
+}
+
+.subslider .carousel-control-prev {
+  left: 15%;
+}
+
+.subslider .carousel-control-next {
+  right: 10%;
+}
+
+.btnhome {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subslider .carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 9;
+}
+
+.firstSlider .btnhome{
+  display: none;
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+  .slider-img2 {
+    max-width: 45%;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -42%;
+    z-index: 2;
+    border-radius: 0px 0px 0px 150px;
+    box-shadow: 0px -1px 25px rgb(255 89 9 / 50%), 0px 1px 25px rgb(255 89 9 / 50%);
+    height: 90%;
+  }
+}
+
+@media screen and (min-width:270px) and (max-width: 576px) {
+  .slider-img2 {
+    max-width: 45%;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -41%;
+    z-index: 2;
+    border-radius: 0px 0px 0px 80px;
+    box-shadow: 0px -1px 25px rgb(255 89 9 / 50%), 0px 1px 25px rgb(255 89 9 / 50%);
+    height: 85%;
+  }
+
+  .subslider {
+    display: none;
+  }
+
+  .slider-img{
+    max-width: 100%;
+  }
+
+  .btnhome {
+    display: none;
+  }
+
+  .firstSlider .btnhome{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+  }
+
+  /* .homebutton {
+    margin-left: 73%;
+    position: relative;
+    z-index: 3;
+    margin-top: -12%;
+  } */
+
+  .slider-btn {
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    transition: 0.5s;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 1%;
+    margin-top: -2%;
+  }
+}
