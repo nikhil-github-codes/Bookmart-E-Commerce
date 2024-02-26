@@ -61,7 +61,7 @@ const ProductDeatils = () => {
                     <div dangerouslySetInnerHTML={{ __html: item.para }}></div>
                     <div className="add-to-cart mt-3">
 
-                      <button className="btn cart-btn">Add to cart</button>
+                      <button className=" cart-btn">Add to cart</button>
 
                     </div>
                   </div>

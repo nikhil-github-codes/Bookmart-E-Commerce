@@ -13,7 +13,7 @@ const AllItem = () => {
 
         </div>
         <div className='container'>
-          <h3 className="mb-4">Products</h3>
+          <h3 className="mb-4">Books</h3>
           <div className='content grid'>
             {items.map((item) => {
               return <Dcards key={item.slug} item={item} />

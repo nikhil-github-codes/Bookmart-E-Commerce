@@ -20,10 +20,10 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About us</Nav.Link>
+              {/* <Nav.Link href="/about">About us</Nav.Link> */}
 
               {/* Product dropdown */}
-              <NavDropdown title="Product" id="basic-nav-dropdown">
+              <NavDropdown title="Books" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/book/category1">Category 1</NavDropdown.Item>
                 <NavDropdown.Item href="/book/category2">Category 2</NavDropdown.Item>
                 {/* Add more items as needed */}
@@ -31,7 +31,7 @@ const Header = () => {
 
               {/* <Nav.Link href="/media">Media</Nav.Link> */}
               <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link href="/career">Career</Nav.Link>
+              {/* <Nav.Link href="/career">Career</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </div>

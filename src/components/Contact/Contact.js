@@ -29,8 +29,8 @@ function Map() {
         <iframe id="iframeId" height="700px" width="100%"></iframe>
         <div className="contact_detail">
           <h1>Contact Details</h1>
-          <p><PermContactCalendarIcon /> 194 Canal Street, 7th Ln, P.O, Sreebhumi, Kolkata, West Bengal-700048 </p>
-          <div><CallIcon />+913325212262</div><div className="contacticon"><EmailIcon />do@ascentia.co.in</div>
+          <p><PermContactCalendarIcon /> XXXXXXXXXXXXXXXX </p>
+          <div><CallIcon />+91 XXXXXXXXX</div><div className="contacticon"><EmailIcon />dummy@gmail.com</div>
           <img src="../../images/contact_button.png" className="contact_image" onClick={() => setmodal(true)} />
         </div>
       </div>
