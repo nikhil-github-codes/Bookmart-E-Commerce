@@ -206,3 +206,21 @@
       font-weight: bold;
     }
   } */
+
+
+
+
+  .btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #ccc; /* Default button color */
+    margin-right: 10px;
+  }
+  
+  .btn.active {
+    background-color: #ff0000; /* Change to desired active button color */
+  }
+  

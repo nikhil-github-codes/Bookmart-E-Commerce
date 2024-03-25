@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.avatar-dropdown-toggle::after {
+  display: none !important;
+}
 
 /* .navbar {
   display: flex;
@@ -305,3 +308,43 @@
   }
 }
  */
+
+
+
+
+ .dropdown-menu-md {
+  position: relative;
+}
+
+.dropdown-menu-md .dropdown-inner {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Add some space between dropdown sections */
+}
+
+.dropdown-menu-md .link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu-md .link-item {
+  margin-bottom: 10px; /* Add space between each menu item */
+}
+
+.dropdown-menu-md hr.hr-blurry {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 10px 0;
+}
+
+/* Optional: Customize icon size and spacing */
+.dropdown-menu-md .icon {
+  margin-right: 10px; /* Adjust as needed */
+  width: 20px; /* Adjust icon width */
+  height: 20px; /* Adjust icon height */
+  margin-top: 0px !important;
+}
